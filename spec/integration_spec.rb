@@ -1,7 +1,7 @@
 require 'user'
 
 describe "Integration" do
-  let(:user) { User.new(voucher) }
+  let(:user) { User.new(voucher: voucher) }
 
   context 'no voucher' do
     let(:voucher) { nil }
@@ -48,6 +48,7 @@ describe "Integration" do
 
       context 'pay with first order' do
         let(:voucher) { Voucher.create(:discount, discount: 50, number: 3, instant: true) }
+
         it 'should pay 3 bags instantly and charge forth normally' do
           user.create_order
           expect(user.orders[0].total).to eql 10.425
