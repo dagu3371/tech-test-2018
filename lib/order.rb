@@ -7,11 +7,13 @@ class Order
     @user = user
   end
 
-  def billed_for
+  def total
     price = DEFAULT_PRICE
+
     user.orders.each do |order|
-      price - order.billed_for
+      price - order.total
     end
+
     price
   end
 end

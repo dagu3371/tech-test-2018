@@ -9,7 +9,7 @@ class User
     @orders = [orders]
   end
 
-  def bill
+  def create_order
     new_order = Order.new(self)
 
     @orders << new_order
