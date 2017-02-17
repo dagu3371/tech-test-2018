@@ -1,10 +1,9 @@
 class Voucher
-  attr_accessor :type, :credit, :discount, :number, :instant
+  attr_accessor :type, :amount, :number, :instant
 
   def initialize(type, **attrs)
     @type = type
-    @credit = attrs[:credit]
-    @discount = attrs[:discount]
+    @amount = attrs[:amount]
     @number = attrs[:number]
     @instant = attrs[:instant]
   end

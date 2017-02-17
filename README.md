@@ -6,6 +6,9 @@ As a business we acquire new customers from marketing channels,
 We incentivise a new customers first bag of coffee because we know our coffee is incredible
 We have a range of incentives to entice new customers
 
+- Discount: A percentage off
+- Credit: A monetry value off
+
 *This is a high level overview to set the context for this test*
 
 Your task
@@ -19,7 +22,7 @@ We expect:
 - clean code
 - a commit history (so we can understand your thought process)
 - green specs
- 
+
 If you have some spare time, describe and add a new voucher of your choice.
 
 We look forward to your pull request.
