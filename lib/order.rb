@@ -8,12 +8,6 @@ class Order
   end
 
   def total
-    price = DEFAULT_PRICE
-
-    user.orders.each do |order|
-      price - order.total
-    end
-
-    price
+    0.0
   end
 end
