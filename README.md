@@ -3,7 +3,7 @@ Pact coffee delivers freshly roasted coffee by post.
 Context
 ---
 As a business we acquire new customers from marketing channels,
-We incentivise a new customers first bag of coffee because we know our coffee is incredible
+We incentivise a new customer's first bag of coffee because we know our coffee is incredible
 We have a range of incentives to entice new customers
 
 - Discount: A percentage off
@@ -20,12 +20,14 @@ The test itself is pretty straight forward but your solution will require you to
 
 Getting started
 ----
-Clone the repository
-change to the project directory
-run `bundle install`
-run `rspec` to see the failing specs you need to make pass.
+- Clone the repository
+- change to the project directory
+- run `bundle install`
+- run `rspec` to see the failing specs you need to make pass.
 
-We expect:
+
+We expect
+----
 - clean code
 - a commit history (so we can understand your thought process)
 - green specs
